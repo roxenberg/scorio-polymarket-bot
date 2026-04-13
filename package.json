@@ -1,0 +1,29 @@
+{
+  "name": "scorio-polymarket-bot",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Trading bot that exploits pricing gaps between bookmaker odds (Scorio) and Polymarket",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "scan": "node dist/scanner.js",
+    "scan:loop": "node dist/scanner.js --loop",
+    "trade": "node dist/execute.js",
+    "dev": "tsc --watch",
+    "dev:scan": "tsc && node dist/scanner.js"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^4.14.0",
+    "@polymarket/order-utils": "^2.1.0",
+    "@scorio/client-sdk": "^1.0.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.8.0",
+    "mongoose": "^8.9.5",
+    "openai": "^6.34.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
