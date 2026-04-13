@@ -211,7 +211,7 @@ src/
 
 ## The full story
 
-Read **[STORY.md](STORY.md)** — how we built this, what worked, and what didn't.
+Read **[Story](https://x.com/dan_roxenberg/status/2043684380539842972?s=20)** — how we built this, what worked, and what didn't.
 
 ---
 
